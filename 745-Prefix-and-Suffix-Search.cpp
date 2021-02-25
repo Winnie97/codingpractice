@@ -9,7 +9,7 @@ class WordFilter {
         }
     };
     TrieNode* root;
-        
+       
 public:
     void buildTree(TrieNode* root, string S, int id) {
         TrieNode* node = root;
